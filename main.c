@@ -5,8 +5,8 @@
 #define NUM_REQUESTS 1000
 #define API_ROUTE "route.com"
 
-int main(void)
-{
+int main(){
+    
     CURL *curl[NUM_REQUESTS];
     CURLcode res[NUM_REQUESTS];
     CURLM *curl_handle;
